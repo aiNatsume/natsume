@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.53">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title> | xmsong notes</title><meta name="description" content="日常笔记">
+    <link rel="preload" href="/natsume/assets/style.d425d816.css" as="style" /><link rel="stylesheet" href="/natsume/assets/style.d425d816.css" />
+    <link rel="modulepreload" href="/natsume/assets/app.b5f43bc7.js"><link rel="modulepreload" href="/natsume/assets/404.html.94255dd9.js"><link rel="modulepreload" href="/natsume/assets/404.html.d2dc3323.js"><link rel="prefetch" href="/natsume/assets/index.html.6490f362.js" as="script" /><link rel="prefetch" href="/natsume/assets/index.html.fc6b28aa.js" as="script" />
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/natsume/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/natsume/assets/app.b5f43bc7.js" defer></script>
+  </body>
+</html>
